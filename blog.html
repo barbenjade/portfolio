@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Jade Barben</title>
+  <link rel="stylesheet" type="text/css" href="main.css" media="screen">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Jade Barben">
+  <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <nav>
+    <!-- <div class="toggle" width="45px">
+      <div class="menu"><i class="far fa-bars menu"></i></div>
+    </div> -->
+    <ul id="menu">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li><!--Include audio of elevator pitch-->
+      <li><a href="blog.html">Blog</a></li>
+      <!-- <li><a href="jade_resume.doc">Resume</a></li> -->
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+      <img id="initials" src="images/image01.jpg" alt="JB">
+
+  </nav>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.menu').click(function(){
+        $('ul').toggleClass('active');
+      })
+    })
+  </script>
+  <div id="mainb1">
+  <div id="main_blog">
+
+
+    <div id="blog_link">
+      <a href="https://plus.google.com/100194175844689518097">Link to Blog</a>
+
+    </div>
+    <h2>Check Out My Blog</h2><br>
+    <p>In my blog I write about a number of different subjects. I write about the coding industry as a whole, and
+      I cover some information I've discovered through my research about how it has effected the economy, particulary the
+      in Utah area, which is also refered as Silicon Slopes. I have posts about my journey through the learning process in code and
+      what got me interested and passionate about Web Development.</p>
+  </div>
+</div>
+  <div id="footer">
+    <hr>
+    <ul id="socialM">
+      <!-- here I will put my facebook, and linkedin links -->
+      <li><a href="mailto:barbenjade@gmail.com"><i class="fas fa-envelope-square fa-3x"></i></a></li>
+      <li><a href="https://github.com/barbenjade"><i class="fab fa-github-square fa-3x"></i></a></li>
+      <li><a href="http://www.linkedin.com/in/jade-barben-bb954a87"><i class="fab fa-linkedin fa-3x"></i></a></li>
+    </ul>
+  </div>
+</body>
+</html>

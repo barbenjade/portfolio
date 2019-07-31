@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Jade Barben</title>
+  <link rel="stylesheet" type="text/css" href="main.css" media="screen">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Jade Barben">
+  <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.menu').click(function(){
+          $('ul').toggleClass('active');
+        })
+      })
+    </script>
+    <script>
+      const dateElement = document.getElementById('dateSlot');
+      const dateBtn = document.getElementById('dateBtn');
+      // renderDate = () => {
+      //   dateElement.innerHTML = Date();
+      // }
+      dateBtn.addEventListener('click', (event) => {
+        dateElement.innerHTML = Date();
+      });
+    </script>
+</head>
+
+<body>
+  <nav>
+    <!-- <div class="toggle" width="45px">
+      <div class="menu"><i class="far fa-bars menu"></i></div>
+    </div> -->
+    <ul id="menu">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li><!--Include audio of elevator pitch-->
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+      <img id="initials" src="images/image01.jpg" alt="JB">
+  </nav>
+
+  <div id="main_about">
+  <div id="photo">
+     <img class="profile1" src="images/image04.png" alt="me">
+  </div><br>
+  <div id="length">
+    <p></p>
+  </div>
+    <!-- <div id="dateSlot">
+    <button id="dateBtn">Click for Date</button>
+  </div> -->
+<div class="wrapper">
+    <div id="side_about">
+      <h2 align="left">Background</h2>
+      <p align="left">I grew up in a small town where I took care of our family animals and I was the second oldest of 9 children. From a young
+        age I had many responsibilities. I
+        understood early on that you can't get anywhere in life without hard work, and I learned to enjoy a good
+        days work. In highschool I was involved in sports, theater, choir, and my church group's youth
+        programs.<br>
+        I attended Brigham Young University and obtained my Bachelor's Degree in Plant and Wildlife Sciences in May 2017.
+        Soon after graduating from BYU I spoke to my brother in law who works in tech, and I became intrigued with computer programming.
+        Soon after finishing at BYU, I started a night class through the Applied Technologies program at SLCC and learned HTML, CSS, JavaScript,
+        PHP, and MySQL. In July of 2018 I started studying full time at an accelerated tech training school in Lehi. I have become passionate
+        about web development and get better each day. </p>
+    </div>
+    <div id="table_about">
+      <h3>Skills and Abilities</h3>
+        <table>
+          <caption>Coding Knowledge</caption>
+        <tr>
+        <td>HTML</td>
+        <td>CSS</td>
+        <td>SCSS</td>
+        <td>JavaScript</td>
+      </tr>
+      <tr>
+        <td>PHP</td>
+        <td>jQeury</td>
+        <td>Python</td>
+        <td>Bootstrap</td>
+      </tr>
+      <tr>
+        <td>MySQL</td>
+        <td>GitHub/git</td>
+        <td>Powershell</td>
+        <td>React</td>
+      </tr>
+      <tr>
+        <td>Atom</td>
+        <td>Apache</td>
+        <td>NPM</td>
+        <td>Json, JSX</td>
+      </tr>
+		</table>
+
+    <div>
+        <h3>Workplace Skills</h3>
+        <ul>
+          <li>Management</li>
+          <li>Troubleshooting</li>
+          <li>60 WPM</li>
+          <li>Soft Skills</li>
+          <li>Team Worker</li>
+          <li>Client Negotiations</li>
+          <li>Supervisor</li>
+          <li>Account Management</li>
+          <li>Prioritization of tasks</li>
+          <li>Attention to Detail</li>
+
+        </ul>
+    </div>
+  </div>
+  <!-- <div>
+    <a id="arrow" href="#top"><i class="far fa-arrow-alt-circle-up" style="font-size:48px;"></i></a>
+    <h4>Back to Top</h4><br><br>
+  </div> -->
+</div>
+
+<div id="footer">
+    <hr>
+    <ul id="socialM">
+      <!-- here I will put my facebook, and linkedin links -->
+      <li><a href="mailto:barbenjade@gmail.com"><i class="fas fa-envelope-square fa-3x"></i></a></li>
+      <li><a href="https://github.com/barbenjade"><i class="fab fa-github-square fa-3x"></i></a></li>
+      <li><a href="http://www.linkedin.com/in/jade-barben-bb954a87"><i class="fab fa-linkedin fa-3x"></i></a></li>
+    </ul>
+</div>
+
+</body>
+
+</html>
